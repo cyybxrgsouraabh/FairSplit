@@ -20,7 +20,6 @@ export const createSplitSchema = z.object({
 
 export const updateSplitSchema = z.object({
     id: z.number().positive(),
-    percentage: z.number().positive() 
 });
 
 export const createUsersSchema = z.object({
